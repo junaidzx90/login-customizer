@@ -1,0 +1,82 @@
+.login h1 a {
+  background-image: none, var(--loginlogo);
+  transform: var(--logoScale);
+  margin-bottom: var(--margin_bottom);
+  margin-top: var(--margin_top);
+  -webkit-transform: var(--logoScale);
+  -moz-transform: var(--logoScale);
+  -ms-transform: var(--logoScale);
+  -o-transform: var(--logoScale);
+}
+body {
+  background-color: var(--body_bg);
+  color: var(--body_color);
+}
+.login h1 a:focus {
+  box-shadow: none !important;
+}
+.login form {
+  background: var(--form_background);
+  border: var(--form_border);
+  box-shadow: 0 1px 30px var(--shadow_color);
+  border-radius: var(--border_radius) !important;
+  -webkit-border-radius: var(--border_radius) !important;
+  -moz-border-radius: var(--border_radius) !important;
+  -ms-border-radius: var(--border_radius) !important;
+  -o-border-radius: var(--border_radius) !important;
+}
+.wp-core-ui .button-primary {
+  background-color: var(--button_bg);
+  border-radius: var(--btn_border_radius);
+  border: var(--btn_border);
+  transition: 0.6s;
+  -webkit-border-radius: var(--btn_border_radius);
+  -moz-border-radius: var(--btn_border_radius);
+  -ms-border-radius: var(--btn_border_radius);
+  -o-border-radius: var(--btn_border_radius);
+}
+
+.wp-core-ui .button-secondary {
+  color: var(--button_bg) !important;
+}
+.wp-core-ui .button-secondary:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+.login #nav a {
+  color: var(--link_color);
+}
+
+a.privacy-policy-link {
+  color: var(--link_color);
+  text-decoration: var(--link_hover_text_decoration) !important;
+}
+#backtoblog a {
+  color: var(--link_color) !important;
+}
+a:hover {
+  color: var(--link_hover_color) !important;
+  text-decoration: var(--link_hover_text_decoration) !important;
+}
+.input:focus {
+  border: 0.5px solid var(--input_focus_border_color) !important;
+  box-shadow: 0 0 0 1px var(--input_focus_shadow_color) !important;
+}
+.button-primary:hover {
+  background-color: var(--btn_hover_bg_color) !important;
+  box-shadow: inset 90px 0px 0px var(--btn_hover_bg_color);
+}
+.button-primary:active {
+  background: var(--btn_hover_bg_color) !important;
+  background-color: var(--btn_hover_bg_color) !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--btn_hover_bg_color) !important;
+}
+
+.button-primary:focus {
+  background: var(--btn_hover_bg_color) !important;
+  background-color: var(--btn_hover_bg_color) !important;
+  box-shadow: 0 0 0 1px #fff, 0 0 0 3px var(--btn_hover_bg_color) !important;
+}
+.language-switcher label .dashicons {
+  color: var(--link_color) !important;
+}
